@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Ristorante Con Fusion</title>
     <!-- endbuild -->
+    <title>Jerry Gao</title>
+
 </head>
 
 <body>
@@ -23,64 +24,47 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto" href="#"><img src="/img/logo.png" height="30" width="41"></a>
+            <a class="navbar-brand mr-auto" id="avatarModalTrigger" data-toggle="modal" data-target="#avatarModal"><img
+                    src="/img/avatar.jpg" height="40" width="40"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span>
-                            Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span
-                                class="fa fa-info fa-lg"></span> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="/contactus.html"><span
-                                class="fa fa-address-card fa-lg"></span>
-                            Contact</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-file fa-lg"></span>
+                            Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./life.html"><span class="fa fa-user fa-lg"></span>
+                            Personal Life</a></li>
+
                 </ul>
-                <span class="navbar-text">
-                    <a id="loginModalTrigger">
-                        <span class="fa fa-sign-in"></span> Login
-                    </a>
-                </span>
             </div>
         </div>
     </nav>
 
-    <div id="loginModal" class="modal fade" role="dialog">
+    <div id="profileModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg" role="content">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">Login</h4>
+                    <h3 class="modal-title">Personal Profile</h3>
                     <button type="button" class="close" data-dismiss="modal">
                         &times;
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3"
-                                    placeholder="Enter email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control form-control-sm mr-1"
-                                    id="exampleInputPassword3" placeholder="Password">
-                            </div>
-                            <div class="col-sm-auto">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox">
-                                    <label class="form-check-label"> Remember me
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                data-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
-                        </div>
-                    </form>
+                    <img src="img/profile-photo.jpg" height="60%" width="60%">
+                    <br>
+                    <p><strong>Kia ora everyone, </strong></p>
+                    <p>My name is Jerry (Xiaochuan) Gao. Originally, I am from China and moved to New Zealand four years
+                        ago. I love travelling and sports. I have lived and studied in many counties, Korea, Australia,
+                        Japan and America for a couple of years. My hobbies are gym, badminton and volleyball. </p>
+                    <p>I am a fully registered teacher with New Zealand Teaching Council. As a professional teacher, I
+                        am passionate about working and playing with children. On my teaching practice, I would love to
+                        take children outside to do some exercises, ball games, and group activities. I am patient and
+                        always listen to children so that their needs are met. As an Asian teacher, I value every
+                        culture in the world. Although I am impacted by the Asian traditional values, I value multiple
+                        cultures. I respect the diverse world and am trying to be an ‘international’ teacher. I speak
+                        fluent English, Mandarin, and Korean. In addition, I know a little Russian and Maori.</p>
+                    <p>Speaking of my education background, I completed my BA in literacy in 2012 in China, Master in
+                        interpretation in 2015 in America and South Korean and Graduate diploma in Teaching 2018 in
+                        Aotearoa.</p>
+                    <p style="color:red" class="text-center"><strong>Ma te huru huru, Ka rere te manu</strong></p>
                 </div>
             </div>
         </div>
@@ -168,21 +152,27 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
-                        lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm-3 align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
-                </div>
-                <div class="col-12 col-sm-3 align-self-center">
-                    <a id="reserveModalTrigger">
-                        <button type="button" class="btn btn-warning btn-block text-white">
-                            Reserve Table
-                        </button>
+                <div class="col-12 col-sm-8">
+                    <h1>Xiaochuan (Jerry) Gao</h1>
+                    <p>高晓川 ｜ 고인환</p>
+                    <br>
+                    <p>
+                        Kia ora, My name is Jerry Gao. Originally, I am from China and have lived in New Zealand for
+                        four years. I have completed my Master Degree in Interpretation in China and America, and a
+                        Graduate
+                        Diploma in ECE in New Zealand. I love travelling and sports. I have lived and studied in many
+                        counties, Korea, Australia, Japan and America for a couple of years. My hobby is gym, badminton
+                        and volleyball. I am a fully registered teacher in New Zealand.
+                    </p>
+                    <a id="profileModalTrigger" data-toggle="modal" data-target="#profileModal">
+                        <button  type="button" class="btn btn-info">
+                        <i class="fa fa-info-circle fa-lg"></i> More Information</button>
                     </a>
                 </div>
+                <div class="col-12 offset-sm-1 col-sm-3 align-self-center">
+                    <img src="img/id-photo.jpg" class="img-fluid rounded-circle" height=“60%”>
+                </div>
+
             </div>
         </div>
     </header>
@@ -252,7 +242,7 @@
         </div>
         <div class="row row-content align-items-center">
             <div class="col-12 col-am-4 order-sm-last col-md-3">
-                <h3>Our Lipsmacking Culinary Creations</h3>
+                <h3>I am a fully registered teacher with New Zealand Teaching Council.</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
                 <div class="media">
@@ -315,45 +305,28 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="/aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="/contactus.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
+                <div class="col-7 col-sm-3">
+                    <h5>Contact</h5>
                     <address>
-                        121, Clear Water Bay Road<br>
-                        Clear Water Bay, Kowloon<br>
-                        HONG KONG<br>
-                        <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
-                        <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
-                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                        Auckland<br>
+                        New Zealand<br>
+                        <i class="fa fa-mobile fa-lg"></i> : +64 20 4137 4601<br>
+                        <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:gaoxiaochuanshuai@gmail.com">gaoxiaochuanshuai@gmail.com</a>
                     </address>
                 </div>
-                <div class="col-12 col-sm-4 align-self-center">
+                <div class="col-4 col-sm-3 align-self-center">
                     <div class="text-center">
-                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
-                                class="fa fa-google-plus"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                        <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/xiaochuan.gao.92"><i
                                 class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                        <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/xiaochuan-jerry-gao-188012a4/"><i
                                 class="fa fa-linkedin"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                                class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
-                                class="fa fa-youtube"></i></a>
-                        <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p><small>Website designed and created by <a href="https://github.com/qhe231">Peter He <i class="fa fa-github"></i></a></small></p>
                 </div>
             </div>
         </div>
