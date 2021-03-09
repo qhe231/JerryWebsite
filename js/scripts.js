@@ -43,4 +43,6 @@ $(document).ready(function () {
             $("#volleyballcarouselButton").children('span').addClass('fa-pause');
         }
     });
+
+    $('[data-toggle="tooltip"]').tooltip();
 });
