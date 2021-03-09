@@ -18,7 +18,7 @@
 
 .jumbotron {
     padding: 70px 40px 70px 30px;
-    margin:0px auto;
+    margin: 0px auto;
     background: #9575cd;
     color: floralwhite;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #512DA8;
+    background-color: #512da8;
 }
 
 .tab-content {
@@ -43,28 +43,29 @@ body {
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
     padding: 10px;
-
 }
 
 .carousel {
-    background: #512DA8;
+    background:#d1c4e9;
 }
 
 .carousel-item {
-    height: 300px;
+    height: 400px;
 }
 
 .carousel-item img {
+    left: -9999px;  /*important */
+    right: -9999px;  /*important */
+    margin: 0 auto;  /*important */
+    max-width: 533px;  /*important */
+    max-height: 533px;
     position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
 }
 
-#carouselButton {
+.carouselButton {
     right: 0px;
     position: absolute;
-    bottom:0px;
+    bottom: 0px;
 }
 
 .modal-body > img {
